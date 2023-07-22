@@ -11,6 +11,8 @@
 		A3945AC02A6BCEB8004E87F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3945ABF2A6BCEB8004E87F4 /* ContentView.swift */; };
 		A3945AC22A6BCEBF004E87F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3945AC12A6BCEBF004E87F4 /* Assets.xcassets */; };
 		A3945AC52A6BCEBF004E87F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3945AC42A6BCEBF004E87F4 /* Preview Assets.xcassets */; };
+		A3945ACC2A6BCEDC004E87F4 /* DoTryCatchBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3945ACB2A6BCEDC004E87F4 /* DoTryCatchBootcamp.swift */; };
+		A3945ACE2A6BDA38004E87F4 /* DownloadImageAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3945ACD2A6BDA38004E87F4 /* DownloadImageAsync.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		A3945ABF2A6BCEB8004E87F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A3945AC12A6BCEBF004E87F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3945AC42A6BCEBF004E87F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A3945ACB2A6BCEDC004E87F4 /* DoTryCatchBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoTryCatchBootcamp.swift; sourceTree = "<group>"; };
+		A3945ACD2A6BDA38004E87F4 /* DownloadImageAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAsync.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				A3945ABD2A6BCEB8004E87F4 /* SwiftConcurrencyBootcampApp.swift */,
 				A3945ABF2A6BCEB8004E87F4 /* ContentView.swift */,
+				A3945ACB2A6BCEDC004E87F4 /* DoTryCatchBootcamp.swift */,
+				A3945ACD2A6BDA38004E87F4 /* DownloadImageAsync.swift */,
 				A3945AC12A6BCEBF004E87F4 /* Assets.xcassets */,
 				A3945AC32A6BCEBF004E87F4 /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3945ACE2A6BDA38004E87F4 /* DownloadImageAsync.swift in Sources */,
 				A3945AC02A6BCEB8004E87F4 /* ContentView.swift in Sources */,
 				A3945ABE2A6BCEB8004E87F4 /* SwiftConcurrencyBootcampApp.swift in Sources */,
+				A3945ACC2A6BCEDC004E87F4 /* DoTryCatchBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
